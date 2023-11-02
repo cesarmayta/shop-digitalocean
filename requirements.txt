@@ -1,0 +1,6 @@
+django==3.2
+Pillow
+pyscopg2
+django-admin-tailwind
+django-paypal
+python-decouple
