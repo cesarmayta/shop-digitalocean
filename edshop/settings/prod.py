@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'edshop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': config('DATABASE_NAME'),
         'USER': config('DATABASE_USR'),
         'PASSWORD': config('DATABASE_PWD'),
