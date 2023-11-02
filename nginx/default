@@ -1,4 +1,5 @@
-listen 80 default_server;
+server {
+    listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
 
     root /usr/share/nginx/html;
@@ -33,3 +34,4 @@ listen 80 default_server;
 
             proxy_pass http://app_server;
     }
+}
